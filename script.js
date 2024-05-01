@@ -131,6 +131,7 @@ function clearAll() {
 function space() {
     document.getElementById('text-output-en').textContent += ' ';
     document.getElementById('text-output-cn').textContent += ' ';
+    document.getElementById('text-output-br').textContent += '⠀';
 
 }
 
